@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simplotel</title>
+    <link rel="stylesheet" href="./simplotel.css">
+    <script src="https://kit.fontawesome.com/7616b794c7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header-container">
+            <div class="menubar-container">
+                <ul class="menu-items" id="myMenu">
+                    <li class="itme-link">Home</li>
+                    <li class="itme-link">Order</li>
+                    <li class="itme-link">Food</li>
+                    <li class="itme-link">Restaurant</li>
+                    <li class="itme-link">Testimonials</li>
+                    <li class="itme-link">Contact Us</li>
+                </ul>
+            </div>
+            <div class="icons">
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <span class="hamburger-icon" onclick="myFunction()" id="hamburgerMenu">&#9776;</span>
+        </div>
+        <!-- ................Home container ..................  -->
+        <div class="bg-color">
+            <div class="home-container-bg">
+                <div class="home-text">
+                    <h1 class="home-text-heading">Lorem ipsum</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem laboriosam ad
+                        quisquam esse suscipit expedita eum! Hic accusamus accusantium fugiat!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ....................order section .........................   -->
+
+    <div class="order-container">
+        <h1 class="order-title">Order Now</h1>
+        <div class="menu-card-container">
+            <div class="menu-card-items">
+                <img class="item-image" src="https://res.cloudinary.com/dxxwzwtow/image/upload/v1683099054/samples/Simplotel/img4_a1be8y.jpg" alt="">
+                <h4 class="card-title">Burger</h4>
+                <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, vel.</p>
+            </div>
+
+            <div class="menu-card-items">
+                <img class="item-image" src="https://res.cloudinary.com/dxxwzwtow/image/upload/v1683099062/samples/Simplotel/img2_otwwcb.jpg" alt="">
+                <h4 class="card-title">Pizza</h4>
+
+                <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, vel.</p>
+            </div>
+
+            <div class="menu-card-items">
+                <img class="item-image" src="https://res.cloudinary.com/dxxwzwtow/image/upload/v1683099056/samples/Simplotel/img3_yr5cmw.jpg" alt="">
+                <h4 class="card-title">Pasta</h4>
+
+                <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, vel.</p>
+            </div>
+
+        </div>
+        <div class="btn-container">
+            <button class="order-btn">Order</button>
+        </div>
+    </div>
+
+    <script>
+        function myFunction() {
+            let x = document.getElementById("myMenu")
+            if (x.style.display == "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
